@@ -1,0 +1,223 @@
+body{
+   background: #0f4155;
+   font-family: "Fira Sans";
+   height: 0px!important;
+   
+}
+
+  h1{
+    font-weight: 700;
+  }
+#leftSide{
+    background: #0f4155;
+   min-height: 100vh;
+   padding-bottom: 10px;
+   color: #fff;
+}
+.appPrimaryColor{
+    color: #e4d618!important;
+}
+#rightSide{
+     background: rgba(0, 0, 0, 0.1);
+     height: 100vh;
+}
+
+  .main-logo{
+    max-width: 130px;
+    margin-left: -25px;
+    vertical-align: middle;
+
+  }
+   .cap-logo{
+    position: absolute;
+    max-width: 270px;
+    vertical-align: middle;
+    z-index: 4;
+    bottom: 10%;
+    right: 10%;
+
+  }
+   #home{
+    margin-left: 15%;
+    margin-right: 10%;
+    padding-top: 10%;
+  } 
+  .spl_font{
+       font-family: "Courgette";
+           color: rgba(255, 255, 255, 0.6);
+  }
+
+  .footer{
+    position: absolute;
+    vertical-align: middle;
+    z-index: 4;
+    bottom: 5%;
+    right: 10%;
+          color: rgba(255, 255, 255, 0.45);
+  }
+
+
+
+
+    .background-img{
+    background: url(../img/pexels-photo-159240.jpeg) center center / cover;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+ #console{
+  position: absolute;
+  left: 0;
+  top:0;
+  background: rgba(0, 0, 0, 0.86);
+  display: block;
+  height: 100vh;
+  width: 100%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+ }
+  #report{
+  position: fixed;
+  top:0;
+  background: rgb(38, 51, 70);
+  height: 100vh;
+  width: 100%;
+  z-index: 20;
+  color: #fff;
+  padding: 20px;
+ }
+.showReport{   
+  left: 0%;
+}
+.hideReport{
+  left: 100%; 
+}
+.showReport-add, .showReport-remove {
+transition: all ease-in-out 1s;
+}
+.hideReport-add, .hideReport-remove  {
+transition: all ease-in-out 1s;
+}
+  ._md{
+background: rgb(15, 65, 85);
+color: rgba(255, 255, 255, 0.84);
+  }
+
+  .md-tabs.md-default-theme .md-tab, md-tabs .md-tab{
+    color: rgba(255, 255, 255, 0.25);
+  }
+  .md-tabs.md-default-theme .md-tab.md-active, md-tabs .md-tab.md-active, md-tabs.md-default-theme .md-tab.md-active md-icon, md-tabs .md-tab.md-active md-icon, md-tabs.md-default-theme .md-tab.md-focused, md-tabs .md-tab.md-focused, md-tabs.md-default-theme .md-tab.md-focused md-icon, md-tabs .md-tab.md-focused md-icon{
+    color: rgba(255, 255, 255, 0.92);
+  }
+  .md-tabs.md-default-theme md-ink-bar, md-tabs md-ink-bar {
+        color: #e4d618;
+    background: #e4d618;
+
+  }
+  .md-display-2 {
+    margin-top: 0px;
+font-size: 32px;
+    font-weight: 400;
+    line-height: 32px!important;
+  }
+  .data{
+    color:rgba(255, 255, 255, 0.63);
+  }
+    .data a{
+    color:#e4d618;
+  }
+  .rpt-icon{
+    position: absolute;
+    top:6%;
+    right: 5%;
+
+  }
+    .close-icon{
+    position: absolute;
+    top:6%;
+    right: 5%;
+
+  }
+  .glyphicon {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.5);
+}
+    .glyphicon:hover {
+    color: rgba(255, 255,255, 1);
+}
+  .report-list{
+height: 100%;
+overflow: scroll;
+padding-bottom: 100px;
+}
+
+.report-list::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.report-list::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.report-list::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.report-list{
+list-style: none;
+}
+.report-list ul{
+list-style: none;
+padding-bottom: 10px;
+}
+.report-list li a{
+  color: rgba(255, 255, 255, 0.58);
+display: block;
+}
+.report-list li a:hover{
+  color: rgba(255, 255, 255, 0.9);
+display: block;
+}
+
+.report-list .glyphicon{
+    font-size: inherit;
+    padding-right: 10px;
+}
+
+label{
+  color: rgba(255, 255, 255, 0.92)!important;
+  font-weight: 100;
+}
+md-select.md-default-theme .md-select-value.md-select-placeholder, md-select .md-select-value.md-select-placeholder{
+  color: rgba(255, 255, 255, 0.92)!important;
+}
+
+md-select-menu.md-default-theme md-content md-option[selected], md-select-menu md-content md-option[selected] {
+  color: rgb(255, 255, 255)!important;;
+}
+md-input-container:not(.md-input-focused):not(.md-input-invalid) md-select.md-default-theme .md-select-value span:first-child:after, md-input-container:not(.md-input-focused):not(.md-input-invalid) md-select .md-select-value span:first-child:after{
+  color: red;
+}
+md-input-container.md-default-theme:not(.md-input-focused):not(.md-input-invalid) label.md-required:after, md-input-container:not(.md-input-focused):not(.md-input-invalid) label.md-required:after{
+  color: red;
+}
+md-select-menu.md-default-theme md-content md-option, md-select-menu md-content md-option{
+  color: #fff;
+}
+md-select-menu.md-default-theme md-content md-option:not([disabled]):focus, md-select-menu md-content md-option:not([disabled]):focus, md-select-menu.md-default-theme md-content md-option:not([disabled]):hover, md-select-menu md-content md-option:not([disabled]):hover{
+  background: rgba(0, 0, 0,0.8);
+}
+
+@media (min-width: 992px){
+    #report{
+  width: 50%;
+ }
+.showReport{   
+  left: 50%;
+}
+}
