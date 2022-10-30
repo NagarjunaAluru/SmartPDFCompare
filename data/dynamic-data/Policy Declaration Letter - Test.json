@@ -1,0 +1,52 @@
+{
+    "config": {
+
+    },
+    "dynamicData": {
+        "header": {
+            "baselineText": "04/04/2019",
+            "expectedText": "05/01/2019"
+        },
+        "line2": {
+            "baselineText": "Dear<PolicyHolderName>",
+            "expectedText": "DearKalpesh Shah"
+        },
+        "line3": {
+            "baselineText": "ABC Insurance",
+            "expectedText": "ReliableInsurance"
+        },
+        "line6": {
+            "baselineText": "AA-BBBBBB-CC",
+            "expectedText": "98-765432-10"
+        },
+        "line7": {
+            "baselineText": "04/15/2019",
+            "expectedText": "05/10/2019"
+        },
+        "line8": {
+            "baselineText": "6 Months",
+            "expectedText": "12Months"
+        },
+        "line9": {
+            "baselineText": "<PolicyHolderName>",
+            "expectedText": "Kalpesh Shah"
+        },
+        "line10": {
+            "baselineText": "$1032.43",
+            "expectedText": "$3042.45"
+        },
+        "line12-1": {
+            "baselineText": "st",
+            "expectedText": "nd",
+            "exactMatch": true
+        },
+        "line12-2": {
+            "baselineText": "due on 1",
+            "expectedText": "due on 2"
+        },
+        "footer": {
+            "baselineText": "AA-BBBBBB-CC",
+            "expectedText": "98-765432-10"
+        }
+    }
+}

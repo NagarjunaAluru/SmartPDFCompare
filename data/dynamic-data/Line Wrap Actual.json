@@ -1,0 +1,46 @@
+{
+    "config": {
+        "averageYdiffBetweenLines": 0.8,
+        "minYDiffBetweenLines": 0.5,
+        "allowedYDiffWhenYIsApprox": 0.5,
+        "topMarginInches": 0.25,
+        "bottomMarginInches": 0.25,
+        "leftMarginInches": 1,
+        "rightMarginInches": 1
+    },
+    "dynamicData": {
+        "line2": {
+            "baselineText": "<Drivers’Names> attached",
+            "expectedText": "Johnattached",
+            "ignoreWhiteSpace": true
+        },
+        "line5": {
+            "baselineText": "for <Drivers’ Names> attached",
+            "expectedText": "for Mr. Alexander Jonathan Smithattached"
+        },
+        "line8": {
+            "baselineText": "<Drivers’ Names> attached",
+            "expectedText": "MR. VENKATESHWARA SUBRAMANIAN SWAMINATHANattached"
+        },
+        "line11": {
+            "baselineText": "<Drivers’ Names>",
+            "expectedText": "Mr. SIVANITHIKESHAVA BALAGIRI"
+        },
+        "line14-1": {
+            "baselineText": "<",
+            "expectedText": ""
+        },
+        "line14-2": {
+            "baselineText": "Drivers’ Names",
+            "expectedText": "MR. and MRS. SHARMA"
+        },
+        "line14-3": {
+            "baselineText": ">",
+            "expectedText": ""
+        },
+        "line14-4": {
+            "baselineText": " attached herewith",
+            "expectedText": "attached herewith"
+        }
+    }
+}

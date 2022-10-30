@@ -1,0 +1,22 @@
+{
+    "doNotMergeObj": false,
+    "wToXCoversionFactor": 16,
+    "inchToPageUnitConversionFactor": 4,
+    "maxXDiffForObjMerge": 1.5,
+    "validatePageLineOnDynamicDataReplacement": true,
+    "completeValidation": true,
+    "customValidation": false,
+    "customValidationFile": "policyDeclarationLetter.js",
+    "ignoreWhiteSpace": false,
+    "averageYdiffBetweenLines": 1.03,
+    "minYDiffBetweenLines": 0.5,
+    "allowedYDiffWhenYIsApprox": 0.05,
+    "topMarginInches": 1,
+    "bottomMarginInches": 1,
+    "leftMarginInches": 1,
+    "rightMarginInches": 1,
+    "noWhiteSpaceAtBeginningOfLine": true,
+    "includeParsedJSONToReport": true,
+    "keepPrevReports": 5,
+    "logLevel": 0
+}

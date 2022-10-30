@@ -1,0 +1,128 @@
+{
+    "config": {
+
+    },
+    "dynamicData": {
+        "page1-line1": {
+            "baselineText": "NEWS NOW–TRENDING NEWS",
+            "expectedText": "NEWS NOW –TRENDING NEWS"
+        },
+        "page1-line3-1": {
+            "baselineText": "France",
+            "expectedText": "United States of America"
+        },
+        "page1-line3-2": {
+            "baselineText": "36 Rafale fighter",
+            "expectedText": "54FrontierLinefighter"
+        },
+        "page1-line6-1": {
+            "baselineText": "Yashwant Sinha",
+            "expectedText": "Yashwant Kumar Sinha"
+        },
+        "page1-line6-2": {
+            "baselineText": "Arun Shourie and activist",
+            "expectedText": "Arun Kumar Shourie andactivist"
+        },
+        "page1-line6-3": {
+            "baselineText": "Prashant Bhushan",
+            "expectedText": "Prashant Kumar Bhushan"
+        },
+        "page1-line7": {
+            "baselineText": "December 14 judgement",
+            "expectedText": "December 31, 2018judgement"
+        },
+        "page1-line8-1": {
+            "baselineText": "Rafale deal",
+            "expectedText": "FrontierLinedeal"
+        },
+        "page1-line8-2": {
+            "baselineText": "French firm",
+            "expectedText": "Americanfirm"
+        },
+        "page1-line8-3": {
+            "baselineText": "Dassault",
+            "expectedText": "Aviators"
+        },
+        "table-DEAL INFORMATION": {
+            "identifier": {
+                "startsAfterText": "The details of the deal are as under:",
+                "endsBeforeText": "A bench headed by Chief Justice"
+            },
+            "data": [
+                {
+                    "text": "Column 1"
+                },
+                {
+                    "text": "Column 2"
+                },
+                {
+                    "text": "Column 3"
+                },
+                {
+                    "text": "Column 4"
+                },
+                {
+                    "text": "Data 1-1Data 1-2Data 1-3Data 1-4"
+                },
+                {
+                    "text": "Data 2-1Data 2-2Data 2-3Data 2-4"
+                },
+                {
+                    "text": "Data 3-1Data 3-3Data 3-3Data 3-4"
+                }
+            ]
+        },
+        "page1-line10-1": {
+            "baselineText": "Ranjan Gogoi",
+            "expectedText": "Ranjan Dev Mishra"
+        },
+        "page1-line10-2": {
+            "baselineText": "referred to a judgement inthe",
+            "expectedText": "referred to a judgement in the"
+        },
+        "page1-line10-3": {
+            "baselineText": "Lalita",
+            "expectedText": "Jaylalita"
+        },
+        "page1-line11-1": {
+            "baselineText": "Kumari",
+            "expectedText": "Sinha"
+        },
+        "page1-line12": {
+            "baselineText": "Lalita ",
+            "expectedText": "Jaylalita"
+        },
+        "page1-line13-1": {
+            "baselineText": "Kumari",
+            "expectedText": "Sinha"
+        },
+        "page1-line13-2": {
+            "baselineText": "K K Venugopal",
+            "expectedText": "K K Krishnamurthy"
+        },
+        "page1-line21": {
+            "baselineText": "by France",
+            "expectedText": "byFrance"
+        },
+        "page1-line27": {
+            "baselineText": "that there was",
+            "expectedText": "thatthere was"
+        },
+        "page2-line8": {
+            "baselineText": "pricing details",
+            "expectedText": "pricingdetails"
+        },
+        "page2-line11": {
+            "baselineText": "Bhushan alleged",
+            "expectedText": "Bhushanalleged"
+        },
+        "page2-line14": {
+            "baselineText": "of the",
+            "expectedText": "ofthe"
+        },
+        "page2-line20": {
+            "baselineText": "also raised",
+            "expectedText": "alsoraised"
+        }
+    }
+}

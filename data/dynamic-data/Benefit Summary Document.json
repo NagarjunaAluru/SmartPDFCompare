@@ -1,0 +1,179 @@
+{
+    "config": {
+        "pageNumberTextFormat": "Page | 1",
+        "bottomMarginInches": 1.05,
+        "logLevel": 0
+    },
+    "dynamicData": {
+        "header1": {
+            "baselineText": "XXXX",
+            "expectedText": "John Smith"
+        },
+        "header2": {
+            "baselineText": "XX-XXXXX-XX",
+            "expectedText": "93-12421-89"
+        },
+        "line2": {
+            "baselineText": "XXXX",
+            "expectedText": "John Smith"
+        },
+        "table-Summary of Benefits": {
+            "identifier": {
+                "startsAfterText": "Summary of Benefits:",
+                "endsBeforeText": "Business Description:"
+            },
+            "data": [
+                {
+                    "text": "Benefit Type",
+                    "bold": true
+                },
+                {
+                    "text": "Coverage Amount",
+                    "bold": true
+                },
+                {
+                    "text": "Deductible",
+                    "bold": true
+                },
+                {
+                    "text": "Premium",
+                    "bold": true
+                },
+                {
+                    "text": "Liability –Bodily Injury"
+                },
+                {
+                    "text": "$300,000"
+                },
+                {
+                    "text": "$2,500"
+                },
+                {
+                    "text": "$563.54"
+                },
+                {
+                    "text": "Uninsured Motorist Liability Limits (Per Incident / Per Person)"
+                },
+                {
+                    "text": "$100,000 / $50,000"
+                },
+                {
+                    "text": "$75.21"
+                },
+                {
+                    "text": "Underinsured Motorist Liability Limits (Per Incident / Per Person)"
+                },
+                {
+                    "text": "$50,000 / $25,000"
+                },
+                {
+                    "text": "$42.45"
+                },
+                {
+                    "text": "Personal Injury Protection"
+                },
+                {
+                    "text": "$2000"
+                },
+                {
+                    "text": "$5.87"
+                },
+                {
+                    "text": "Emergency Roadside Assistance"
+                },
+                {
+                    "text": "$10.34"
+                },
+                {
+                    "text": "Liability –Property Damage"
+                },
+                {
+                    "text": "$200,000"
+                },
+                {
+                    "text": "$500"
+                },
+                {
+                    "text": "$253.12"
+                },
+                {
+                    "text": "$950.53"
+                }
+            ]
+        },
+        "section-Business Description": {
+            "identifier": {
+                "startsAfterText": "Below is the list of businesses being performed by the insured as per our record:",
+                "endsBeforeText": "Covered Vehicles:"
+            },
+            "data": [
+                {
+                    "text": "Business 1:Software Development Services",
+                    "bold": true
+                },
+                {
+                    "text": "Insured owns a software company named ParaSoftInc., which is responsible to provide software services to its customers. The services being offered include website development, quality assurance services and mobile application development."
+                },
+                {
+                    "text": "Business 2: Software Consulting Services",
+                    "bold": true
+                },
+                {
+                    "text": "Insured also providessoftware consultation services under same company as mentioned above. As of now the company has 35 active customers who outsource various tasks on regular basis."
+                }
+            ]
+        },
+        "table-Covered Vehicles": {
+            "identifier": {
+                "startsAfterText": "Covered Vehicles:",
+                "endsBeforeText": "Should you have any question, please reach out to our customer care service center at the"
+            },
+            "data": [
+                {
+                    "text": "VIN",
+                    "bold": true
+                },
+                {
+                    "text": "Make",
+                    "bold": true
+                },
+                {
+                    "text": "Model",
+                    "bold": true
+                },
+                {
+                    "text": "Year",
+                    "bold": true
+                },
+                {
+                    "text":  "4C325H5634JH32"
+                },
+                {
+                    "text": "Nissan"
+                },
+                {
+                    "text": "Altima"
+                },
+                {
+                    "text": "2013"
+                },
+                {
+                    "text": "3JCF2554GG5235"
+                },
+                {
+                    "text": "Toyota"
+                },
+                {
+                    "text": "Camry"
+                },
+                {
+                    "text": "2018"
+                }
+            ]
+        },
+        "line10": {
+            "baselineText": "XXX-XXX-XXXX",
+            "expectedText": "478-245-4678"
+        }
+    }
+}
